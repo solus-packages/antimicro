@@ -1,0 +1,21 @@
+name       : antimicro
+version    : 2.20.2
+release    : 1
+source     :
+    - https://github.com/Ryochan7/antimicro/archive/2.20.2.tar.gz : 9e845debb4629cdbc3deedd02821196e27e177724492d937aa966a09f99b70ac
+license    : GPL-3.0
+summary    : antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.
+description: |
+    antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.
+builddeps  :
+    - pkgconfig(Qt5Core)
+    - pkgconfig(sdl2)
+    - pkgconfig(x11)
+    - pkgconfig(xi)
+    - pkgconfig(xtst)
+setup      : |
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install
