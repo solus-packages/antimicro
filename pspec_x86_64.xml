@@ -2,10 +2,11 @@
     <Source>
         <Name>antimicro</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
+        <PartOf>games</PartOf>
         <Summary xml:lang="en">antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.</Summary>
         <Description xml:lang="en">antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.
 </Description>
@@ -16,23 +17,23 @@
         <Summary xml:lang="en">antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.</Summary>
         <Description xml:lang="en">antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.
 </Description>
-        <PartOf>desktop.qt</PartOf>
+        <PartOf>games</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share/antimicro</Path>
-            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="data">/usr/share/applications/antimicro.desktop</Path>
             <Path fileType="man">/usr/share/man</Path>
-            <Path fileType="data">/usr/share/applications</Path>
-            <Path fileType="data">/usr/share/mime</Path>
+            <Path fileType="data">/usr/share/mime/packages/antimicro.xml</Path>
+            <Path fileType="data">/usr/share/pixmaps/antimicro.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2016-03-09</Date>
-            <Version>2.20.2</Version>
+        <Update release="4">
+            <Date>2016-06-16</Date>
+            <Version>2.21</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

@@ -1,9 +1,10 @@
 name       : antimicro
-version    : 2.20.2
-release    : 3
+version    : 2.21
+release    : 4
 source     :
-    - https://github.com/Ryochan7/antimicro/archive/2.20.2.tar.gz : 9e845debb4629cdbc3deedd02821196e27e177724492d937aa966a09f99b70ac
+    - https://github.com/AntiMicro/antimicro/archive/2.21.tar.gz : 2a361410d184341ca325a535e212325f75fc244a331a7062eb057067295f05ba
 license    : GPL-3.0
+component  : games
 summary    : antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.
 description: |
     antimicro is a graphical program used to map keyboard keys and mouse controls to a gamepad.
